@@ -11,7 +11,7 @@ let page = 1;
 const form = document.querySelector(".form");
 const btn = document.querySelector('.load');
 let query_global= ''
-per_page = 15;
+const per_page = 15;
 
 form.addEventListener("submit", async (event) =>{
 
